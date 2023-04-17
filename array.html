@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array vs List and Tuple</title>
+  <style>
+    table{border: 1px solid black;}
+    td {font-size: 20px;}
+    th {font-size: 35px;}
+    p {font-size: 25px}
+    .coltitle{color: darkblue; font-size:28px}
+    .rowtitle{color: blue; font-size:30px}
+  </style>
+</head>
+
+<body>
+  <h1>Array vs List and Tuple</h1>
+  <div id="j"></div>
+  <table>
+    <tr>
+      <th><br/></th><th>JavaScript&nbsp&nbsp</th><th colspan="2">Python</th>
+    </tr>
+    <tr>
+      <td></td><td class="rowtitle"><u>Array</u></td><td td class="rowtitle"><u>List</td></u><td td class="rowtitle"><u>Tuple</u></td>
+    </tr>
+    <tr>
+      <th class="coltitle">Different type </th><td class='col title'>Yes</td><td>Yes</td><td>Yes</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <th class="coltitle">Declaration of size </th><td>Not required</td><td>Not required</td><td>Not required</td>
+    </tr>
+    <tr>
+      <th class="coltitle">Index of first element</th><td>0</td><td>0</td><td>0</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <th class="coltitle">Mutable*</th><td>Yes</td><td>Yes</td><td>No</td>
+    </tr>
+
+  </table>
+  <p>For array in JavaScript and list in Python, they are mutable that the elements inside can be changed, modify, deleted, or added, </br>
+    but tuple in Python are not. Once a tuple is created, the length cannot be changed but list an array can.</br>
+    The picture below shows the additon of element in tuple which error occured said that tuple is not attributed to append which it is immutable.
+  </p>
+  <a href="https://github.com/KinHoLau/LauKinHo/tree/main" target="_blank">
+      <img src =https://raw.githubusercontent.com/KinHoLau/LauKinHo/main/immutable.png >
+  </a>
+  <p>From below picture<br/>It shows that we can add element to the array and list.</p>
+    <a href="https://github.com/KinHoLau/LauKinHo/tree/main" target="_blank">
+      <img src =https://github.com/KinHoLau/LauKinHo/blob/main/mutable.png?raw=true >
+    </a>
+  <hr>
+  <h2>Indexing</h2>
+  <p>For getting the sub array, list or tuple, Python has a more flexible indexing system.   See the picture below</p>
+  <a href="https://github.com/KinHoLau/LauKinHo/tree/main" target="_blank">
+      <img src =https://github.com/KinHoLau/LauKinHo/blob/main/py%20index.png?raw=trueS>
+    </a>  
+    <a href="https://github.com/KinHoLau/LauKinHo/tree/main" target="_blank">
+      <img src =https://github.com/KinHoLau/LauKinHo/blob/main/index.png?raw=true>
+    </a>
+  <p>But compare with JavaScript, JavaScript has a lower efficieny as we have to use the slice function.</p>
+  <a href="https://github.com/KinHoLau/LauKinHo/tree/main" target="_blank">
+      <img src =https://github.com/KinHoLau/LauKinHo/blob/main/js%20index.png?raw=true>
+    </a>
+  <hr>
+  <p>
+    Besides, it is easier to calculate the sum, maximum and minimum in Python.</br>
+    Simply just type sum(list) or min(list) or min(list) and it will return the summation/maximum/minimum of the list or tuple.
+  </p>
+   <a href="https://github.com/KinHoLau/LauKinHo/tree/main" target="_blank">
+      <img src =https://github.com/KinHoLau/LauKinHo/blob/main/py-sum%20min%20max.png?raw=true>
+    </a>
+    <p>However, we can only find the max and min of the array by using Math function and there is a function a find the sum directly that we have to use loop to calculate.</p>
+    <a href="https://github.com/KinHoLau/LauKinHo/tree/main" target="_blank">
+      <img src =https://github.com/KinHoLau/LauKinHo/blob/main/js%20min%20max.png?raw=true>
+    </a>
+    <hr>
+    <p><b>Overall, the list and tuple are more flexible in indexing and function in Python compare to array in JavaScript.</b></p>
+  <hr/>
+  <p2>Course Project - 2022/2023 Semester B
+    <ul>
+      <li>Lau Kin Ho</li>
+      <li>Yeung Hei Ning</li>
+    </ul>
+  </p2>
+</body>
+</html>

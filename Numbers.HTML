@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Python Numbers</title>
+  <style>
+    table{border: 1px solid black;}
+    td {font-size: 20px;}
+    th {font-size: 30px;}
+    p {font-size: 25px}
+    .coltitle{color: darkblue; font-size:28px}
+  </style>
+</head>
+
+<body>
+  <h1>Python Numbers</h1>
+  <p>Different with Javascript:
+  <table>
+    <tr>
+      <th><br/></th><th>JavaScript&nbsp&nbsp</th><th>Python</th>
+    </tr>
+    <tr>
+      <th class="coltitle">x=1</th><td>//number without decimals</td><td>#int</td>
+    </tr>
+    <tr>
+      <th class="coltitle">y=2.9</th><td><b>//number with decimals</b></td><td>#float</td>
+    </tr>
+    <tr>
+      <th class="coltitle">y=3F</th><td><b>//NaN</b></td><td>#complex</td>
+    </tr>
+    </table>
+  </p>
+  
+  <p>The Numbers function is not the same between Python and Javascript. Which Python includes a more detailed description on it. For instance, Javascript cannot recognise number plus alphabet letter while Python does. <br/>
+    <button onclick="quiz();">Take a Quiz</button>
+  </p>
+    <script>
+    function quiz(){
+      user_ans = prompt('Which of the following is the correct option enter "5J" in Javascript?\n1: J5\n2: 5J\n3: NaN\n4: error\nPlease enter number');
+      if(user_ans!=3){
+        if(isNaN(user_ans)){
+          alert('Invalid input! please enter a number')
+        }
+        else{
+          alert('Incorrect!')
+        }
+      }
+      else{
+        alert('Correct!')
+      }
+    }
+  </script>
+
+
+  <hr/>
+  <p2>Course Project - 2022/2023 Semester B
+    <ul>
+      <li>Lau Kin Ho</li>
+      <li>Yeung Hei Ning</li>
+    </ul>
+  </p2>
+</body>
+</html>

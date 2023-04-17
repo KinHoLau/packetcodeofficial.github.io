@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Python Comments</title>
+  <style>
+    table{border: 1px solid black;}
+    td {font-size: 20px;}
+    th {font-size: 30px;}
+    p {font-size: 25px}
+    .coltitle{color: darkblue; font-size:28px}
+  </style>
+</head>
+
+<body>
+  <h1>Python Comments</h1>
+  <p>Similar with Javascript: 
+  <table>
+    <tr>
+      <th><br/></th><th>JavaScript&nbsp&nbsp</th><th>Python</th>
+    </tr>
+    <tr>
+      <th class="coltitle">Comment section</th><td>//</td><td>#</td>
+    </tr>
+    <tr>
+      <th class="coltitle">Multi-line Comments</th><td><b>/* & */</b></td><td>insert # for each line</td>
+    </tr>
+    </table>
+  </p>
+  
+  <p>Basically the Comment functions of Python and Javascript are mostly the same, with the uses to explain the python/javascript code, allowing the codes being more readable, and also used to prevent execution when testing code. <br/>
+    <button onclick="quiz();">Take a Quiz</button>
+  </p>
+    <script>
+    function quiz(){
+      user_ans = prompt('Which of the following is the correct option of inserting comment in Python?\n1: #\n2: //\n3: /*\n4: */\nPlease enter number');
+      if(user_ans!=1){
+        if(isNaN(user_ans)){
+          alert('Invalid input! please enter a number')
+        }
+        else{
+          alert('Incorrect!')
+        }
+      }
+      else{
+        alert('Correct!')
+      }
+    }
+  </script>
+
+
+  <hr/>
+  <p2>Course Project - 2022/2023 Semester B
+    <ul>
+      <li>Lau Kin Ho</li>
+      <li>Yeung Hei Ning</li>
+    </ul>
+  </p2>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Common Math Functions</title>
+  <style>
+    table{border: 1px solid black;}
+    td {font-size: 20px;}
+    th {font-size: 30px;}
+    p {font-size: 25px}
+    .coltitle{color: darkblue; font-size:28px}
+  </style>
+</head>
+
+<body>
+  <h1>Common Math functions</h1>
+  <p>Similar math functions
+  <table>
+    <tr>
+      <th><br/></th><th>JavaScript&nbsp&nbsp</th><th>Python</th>
+    </tr>
+    <tr>
+      <th class="coltitle">Max/Min</th><td>Math.max();</td><td>max()</td>
+    </tr>
+    <tr>
+      <th class="coltitle">Sum</th><td><b>unavailable</b></td><td>sum()</td>
+    </tr>
+    <tr>
+      <th class="coltitle">Round up</th><td>Math.ceil()</td><td>math.ceil()</td>
+    </tr>
+    <tr>
+      <th class="coltitle">Round down</th><td>Math.floor()</td><td>math.floor()</td>
+    </tr>
+    <tr>
+      <th class="coltitle">Round off</th><td>Math.round</td><td>round()</td>
+    </tr>
+    <tr>
+      <th class="coltitle">Absolute value</th><td>Math.abs()</td><td>math.abs()</td>
+    </tr>
+    <tr>
+      <th class="coltitle">Square root</th><td>Math.sqrt()</td><td>math.sqrt</td>
+    </tr>
+    <tr>
+      <th class="coltitle">power</th><td>Math.pow(x, y)</td><td>math.pow(x, y)</td>
+    </tr>
+    </table>
+  </p>
+  <p>Some different math functions
+    <table>
+      <tr>
+        <th><br/></th><th>JavaScript&nbsp&nbsp</th><th>Python</th>
+      </tr>
+      <tr>
+        <th class="coltitle">logarithm</th><td>Math.log()&nbsp  <b>(only base 10)</b>&nbsp&nbsp</td><td>math.log(x, base)</td>
+      </tr>
+      <tr>
+        <th class="coltitle">Convert degree to radian</th><td><b>unavailable</b></td><td>math.radians()</td>
+      </tr>
+      <tr>
+        <th class="coltitle">Convert radian degree</th><td><b>unavailable</b></td><td>math.degrees()</td>
+      </tr>
+    </table></p>
+  <p>Basically, most of the logic and syntax for JavaScript and Python are the same except some functions like sum, convert between degree and radian and change of base of logarithm. <br/>
+    <button onclick="quiz();">Take a Quiz</button>
+  </p>
+    <script>
+    function quiz(){
+      user_ans = prompt('Which of the following is unavailable in JavaScript\n1: Round off\n2: Sum\n3: Absolute value\n4: Square root\nPlease enter number');
+      if(user_ans!=2){
+        if(isNaN(user_ans)){
+          alert('Invalid input! please enter a number')
+        }
+        else{
+          alert('Incorrect!')
+        }
+      }
+      else{
+        alert('Correct!')
+      }
+    }
+  </script>
+
+
+  <hr/>
+  <p2>Course Project - 2022/2023 Semester B
+    <ul>
+      <li>Lau Kin Ho</li>
+      <li>Yeung Hei Ning</li>
+    </ul>
+  </p2>
+</body>
+</html>
